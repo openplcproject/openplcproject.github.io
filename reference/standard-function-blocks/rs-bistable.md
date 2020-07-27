@@ -15,8 +15,8 @@ If both inputs are `TRUE` the output is `FALSE`.
 
 ```
 VAR_INPUT
-    S1 : BOOL;
-    R  : BOOL;
+    S  : BOOL;
+    R1 : BOOL;
 END_VAR
 ```
 
@@ -30,21 +30,21 @@ END_VAR
 Internal implementation:
 
 ```
-Q1 := (NOT R1) AND (S OR Q1)
+Q1 := (NOT R1) AND (S OR Q1);
 ```
 
 ## Pinout Description
 
-| Pin Name | Signal | Data Type | Description                                                 |
-|----------|--------|-----------|-------------------------------------------------------------|
-| S        | Input  | `BOOL`    | Set. This input puts the output in True state.               |
-| R1       | Input  | `BOOL`    | Reset(dominant). This input puts the output in False state. |
-| Q1       | Output | `BOOL`    | Q. This is the output.                                      |
+| Pin Name   | Signal | Data Type | Description                                                 |
+|------------|--------|-----------|-------------------------------------------------------------|
+| `S`        | Input  | `BOOL`    | Set. This input puts the output in True state.               |
+| `R1`       | Input  | `BOOL`    | Reset(dominant). This input puts the output in False state. |
+| `Q1`       | Output | `BOOL`    | Q. This is the output.                                      |
 
 ## Truth Table
 
 | S | R1 |  Q1            | Description                  |
-|---|----|:---------------|------------------------------|
+|---|----|----------------|------------------------------|
 | 0 |  0 | Q<sub>-1</sub> | Q retains its previous state |
 | 0 |  1 |  0             | Q is False                   |
 | 1 |  0 |  1             | Q is True                    |
