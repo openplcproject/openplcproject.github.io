@@ -37,8 +37,8 @@ Q1 := (NOT R1) AND (S OR Q1);
 
 | Pin Name   | Signal | Data Type | Description                                                    |
 |------------|--------|-----------|----------------------------------------------------------------|
-| `S`        | Input  | `BOOL`    | Set. This input puts the output in `True` state.               |
-| `R1`       | Input  | `BOOL`    | Reset (dominant). This input puts the output in `False` state. |
+| `S`        | Input  | `BOOL`    | Set. This input puts the output in `TRUE` state.               |
+| `R1`       | Input  | `BOOL`    | Reset (dominant). This input puts the output in `FALSE` state. |
 | `Q1`       | Output | `BOOL`    | Q. This is the output.                                         |
 
 ## Truth Table
@@ -46,9 +46,9 @@ Q1 := (NOT R1) AND (S OR Q1);
 | S | R1 |  Q1            | Description                    |
 |---|----|----------------|--------------------------------|
 | 0 |  0 | Q<sub>-1</sub> | Q retains its previous state   |
-| 0 |  1 |  0             | Q is `False`                   |
-| 1 |  0 |  1             | Q is `True`                    |
-| 1 |  1 |  0             | Q is `False`                   |
+| 0 |  1 |  0             | Q is `FALSE`                   |
+| 1 |  0 |  1             | Q is `TRUE`                    |
+| 1 |  1 |  0             | Q is `FALSE`                   |
 
 ## Time Diagram
 
