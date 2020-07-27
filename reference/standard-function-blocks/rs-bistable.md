@@ -43,12 +43,12 @@ Q1 := (NOT R1) AND (S OR Q1)
 
 ## Truth Table
 
-| S | R1 |  Q1 | Description                  |
-|---|----|:---:|------------------------------|
-| 0 |  0 | Q-1 | Q retains its previous state |
-| 0 |  1 |  0  | Q is False                   |
-| 1 |  0 |  1  | Q is True                    |
-| 1 |  1 |  0  | Q is False                   |
+| S | R1 |  Q1            | Description                  |
+|---|----|:---------------|------------------------------|
+| 0 |  0 | Q<sub>-1</sub> | Q retains its previous state |
+| 0 |  1 |  0             | Q is False                   |
+| 1 |  0 |  1             | Q is True                    |
+| 1 |  1 |  0             | Q is False                   |
 
 ## Time Diagram
 
