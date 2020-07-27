@@ -38,7 +38,7 @@ Q1 := (NOT R1) AND (S OR Q1);
 | Pin Name   | Signal | Data Type | Description                                                 |
 |------------|--------|-----------|-------------------------------------------------------------|
 | `S`        | Input  | `BOOL`    | Set. This input puts the output in True state.               |
-| `R1`       | Input  | `BOOL`    | Reset(dominant). This input puts the output in False state. |
+| `R1`       | Input  | `BOOL`    | Reset (dominant). This input puts the output in False state. |
 | `Q1`       | Output | `BOOL`    | Q. This is the output.                                      |
 
 ## Truth Table
