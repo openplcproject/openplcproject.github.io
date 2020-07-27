@@ -15,8 +15,8 @@ If both inputs are `TRUE` the output is `FALSE`.
 
 ```
 VAR_INPUT
-  S1 : BOOL;
-  R  : BOOL;
+    S1 : BOOL;
+    R  : BOOL;
 END_VAR
 ```
 
@@ -24,7 +24,7 @@ END_VAR
 
 ```
 VAR_OUTPUT
-  Q1 : BOOL;
+    Q1 : BOOL;
 END_VAR
 ```
 Internal implementation:
@@ -37,7 +37,7 @@ Q1 := (NOT R1) AND (S OR Q1)
 
 | Pin Name | Signal | Data Type | Description                                                 |
 |----------|--------|-----------|-------------------------------------------------------------|
-| S        | Input  | `BOOL`    | Set.This input puts the output in True state.               |
+| S        | Input  | `BOOL`    | Set. This input puts the output in True state.               |
 | R1       | Input  | `BOOL`    | Reset(dominant). This input puts the output in False state. |
 | Q1       | Output | `BOOL`    | Q. This is the output.                                      |
 
