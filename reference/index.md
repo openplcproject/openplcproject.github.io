@@ -22,8 +22,8 @@ nav: start
 - [Falling Trigger (F_TRIG)](standard-function-blocks/falling-trigger)
 - [Counter Up (CTU)](standard-function-blocks/counter-up)
 - [Counter Down (CTD)](standard-function-blocks/counter-down)
-- Counter Up-Down (CTUD)
-- Timer Pulse (TP)
+- [Counter Up-Down (CTUD)](standard-function-blocks/counter-up-down)
+- [Timer Pulse (TP)](standard-function-blocks/timer-pulse)
 - [Timer On (TON)](standard-function-blocks/timer-on)
 - [Timer Off (TOF)](standard-function-blocks/timer-off)
 
