@@ -17,7 +17,7 @@ nav: start
 
 - [SR Bistable (SR)](standard-function-blocks/sr-bistable)
 - [RS Bistable (RS)](standard-function-blocks/rs-bistable)
-- Semaphore (SEMA)
+- [Semaphore (SEMA)](standard-function-blocks/semaphore)
 - [Rising Trigger (R_TRIG)](standard-function-blocks/rising-trigger)
 - [Falling Trigger (F_TRIG)](standard-function-blocks/falling-trigger)
 - [Counter Up (CTU)](standard-function-blocks/counter-up)
