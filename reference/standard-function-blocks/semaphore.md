@@ -5,7 +5,7 @@ title: Semaphore
 
 ## Introduction
 
-![Semaphore](/reference/standard-function-blocks/semaphore.png)
+![{{ page.title }}]({{ page.url | | replace: ".html", ".png"}}) 
 
 `( BOOL:CLAIM, BOOL:RELEASE ) => ( BOOL:BUSY )`
 
