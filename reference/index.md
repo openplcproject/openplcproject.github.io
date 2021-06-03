@@ -29,7 +29,7 @@ nav: start
 
 ## Additional Function Blocks
 
-- Real Time Clock (`RTC`)
+- [Real Time Clock (`RTC`)](additional-function-blocks/real-time-clock)
 - Integral
 - Derivative
 - PID
