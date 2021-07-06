@@ -38,8 +38,8 @@ is determined based on the data width, direction, and an offset.
 
 | Modbus table                    | PLC Address           | Data Size | Access† |
 |---------------------------------|-----------------------|-----------|---------|
-| Discrete Output Coils           | `%IX100.0 - %IX149.7` | 8-bit     | W       |
-| Discrete Input Contacts         | `%QX100.0 - %QX149.7` | 8 bit     | R       |
+| Discrete Input Contacts         | `%IX100.0 - %IX149.7` | 8-bit     | R       |
+| Discrete Output Coils           | `%QX100.0 - %QX149.7` | 8 bit     | W       |
 | Analog Input Registers          | `%IW100 - %IW500`     | 16-bit    | R       |
 | Analog Output Holding Registers | `%QW100 - %QW500`     | 16-bit    | RW      |
 
@@ -57,4 +57,4 @@ registers. Analog output holding registers are read prior to read.
 The offset (and size) defines how PLC hierarchical addresses binds to Modbus
 data addresses. For example, if `input_registers_start = 50` and
 `input_registers_size = 10`, then `%IW100 - %IW110` bind to Modbus data addresses
-0x32 to 0x3B (register numbers 30051 to 30050).
+0x32 to 0x3B.
