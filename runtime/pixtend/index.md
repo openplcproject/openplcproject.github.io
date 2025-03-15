@@ -11,6 +11,15 @@ the most recent Raspbian form the
 [Raspberry Pi website](https://www.raspberrypi.org/downloads/) and make a fresh
 install.​
 
+To enable communication between PiXtend board and the Raspberry Pi you need to first enable the SPI (Serial Peripheral Interface) bus. You can do this via the raspi-config command with the terminal 
+
+```
+sudo raspi-config
+```
+
+(Under Interfacing options > SPI), or via the GUI Preferences > Raspberry Pi Configuration (Under Interfaces > SPI).
+After enabling the SPI reboot the Pi before proceeding.
+
 The best way to get OpenPLC files into your PiXtend is by using git. Usually,
 git comes preinstalled on Raspbian. If for some reason you don't have git
 installed on your system, you can install it by typing:
